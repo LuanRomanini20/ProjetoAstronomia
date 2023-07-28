@@ -1,0 +1,73 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#slider{
+	width: 800px;
+	height: 400px;
+	background: url(mercurio1.jpg);
+	margin: 100px auto;
+	animation: slide 20s infinite;
+
+}
+@keyframes slide{
+	25%{
+		background: url(mercurio2.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	50%{
+		background: url(mercurio3.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	75%{
+		background: url(mercurio4.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	100%{
+		background: url(mercurio1.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+}
+
+#slideer{
+	width: 800px;
+	height: 400px;
+	background: url(jupiter1.jpg);
+	margin: 100px auto;
+	animation: slide 20s infinite;
+
+}
+@keyframes slide{
+	25%{
+		background: url(jupiter2.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	50%{
+		background: url(jupiter3.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	75%{
+		background: url(jupiter4.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	100%{
+		background: url(jupiter1.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+}

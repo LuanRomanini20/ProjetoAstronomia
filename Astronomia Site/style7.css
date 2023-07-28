@@ -1,0 +1,107 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#slider{
+	width: 800px;
+	height: 400px;
+	background: url(saturno1.jpg);
+	margin: 100px auto;
+	animation: slide 20s infinite;
+
+}
+@keyframes slide{
+	25%{
+		background: url(saturno2.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	50%{
+		background: url(saturno3.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	75%{
+		background: url(saturno4.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	100%{
+		background: url(saturno1.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+}
+
+#slideeer{
+	width: 800px;
+	height: 400px;
+	background: url(urano1.jpg);
+	margin: 100px auto;
+	animation: slide 20s infinite;
+
+}
+@keyframes slide{
+	25%{
+		background: url(urano2.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	50%{
+		background: url(urano3.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	75%{
+		background: url(urano4.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	100%{
+		background: url(urano1.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+}
+#slideeeer{
+	width: 800px;
+	height: 400px;
+	background: url(netuno1.jpg);
+	margin: 100px auto;
+	animation: slide 20s infinite;
+
+}
+@keyframes slide{
+	25%{
+		background: url(netuno2.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	50%{
+		background: url(netuno3.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	75%{
+		background: url(netuno4.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	100%{
+		background: url(netuno1.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+}

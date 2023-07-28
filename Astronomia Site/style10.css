@@ -1,0 +1,38 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#slider{
+	width: 800px;
+	height: 400px;
+	background: url(venus1.jpg);
+	margin: 100px auto;
+	animation: slide 20s infinite;
+
+}
+@keyframes slide{
+	25%{
+		background: url(terra2.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	50%{
+		background: url(terra3.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	75%{
+		background: url(terra4.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	100%{
+		background: url(terra1.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+}
